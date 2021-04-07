@@ -1,0 +1,33 @@
+/* This Is For Devices Less Than 576px*/
+
+.mybox1 {
+    background-color: rgba(242, 221, 59);
+    min-height: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+
+}
+
+h1 {
+    color: red;
+}
+/* For Small Device (Landscape Phones) */
+@media(min-width: 576px) {
+h1 {
+    color: blue;
+}
+}
+/* For Medium Device(Tablets) */
+@media(min-width: 768px) {
+
+}
+/* For large Device(Desktops) */
+@media(min-width: 992px) {
+h1{
+    color: black;
+}
+}
+/* For Extra Large Device(Large Desktops) */
+@media(min-width: 1200px) {
+
+}
